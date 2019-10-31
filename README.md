@@ -3,4 +3,4 @@
  
  Modules included in this library:
   averagecolor
-  ... and more to come!
+   ... and more to come!
