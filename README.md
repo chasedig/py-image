@@ -3,5 +3,6 @@
  
  Modules included in this library:
  
- averagecolor/n
+ averagecolor
+ 
  ... and more to come!
