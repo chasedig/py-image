@@ -9,7 +9,6 @@ import cv2 as cv
 import sys
 
 def main(img):
-
 	RedValue = 0
 	GreenValue = 0
 	BlueValue = 0
@@ -28,7 +27,7 @@ def main(img):
 			BlueValue = BlueValue + color[2]
 
 	RedValue = RedValue / ImageArea
-	GreenValue =GreenValue / ImageArea
+	GreenValue = GreenValue / ImageArea
 	BlueValue = BlueValue / ImageArea
 
 	return RedValue,GreenValue,BlueValue
