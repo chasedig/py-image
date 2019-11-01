@@ -4,6 +4,7 @@
  Modules included in this library:
  
  averagecolor
+ 
  rgbstatic
  
  ... and more to come!
