@@ -38,11 +38,18 @@ def averagecolor(img):
 
 # Creates television style static using RGB colors from 0 to 255
 def rgbstatic(width, height):
-
 	img_array = np.zeros((height,width,3), np.uint8)
 	for i in range(height):
 		for j in range(width):
 				img_array[i,j] = (random.randint(0, 255),random.randint(0, 255),random.randint(0, 255))
 				
 	return img_array
+
+def center(img):
+
+	height, width, channels = img.shape
+
+	center = round(width/2),round(height/2)
+
+	return center
 
