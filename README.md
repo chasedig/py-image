@@ -7,4 +7,6 @@
  
  rgbstatic
  
+ center
+ 
  ... and more to come!
