@@ -3,10 +3,10 @@
  
  Functions included in this library:
  
- [averagecolor](averagecolor)
+ [averagecolor](https://github.com/chasedig/py-image/wiki/averagecolor)
  
- [rgbstatic](rgbstatic)
+ [rgbstatic](https://github.com/chasedig/py-image/wiki/rgbstatic)
  
- [center](center)
+ [center](https://github.com/chasedig/py-image/wiki/center)
  
  ... and more to come!
