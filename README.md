@@ -1,12 +1,12 @@
 # py-image
  An image data library written in Python
  
- Modules included in this library:
+ Functions included in this library:
  
- averagecolor
+ [averagecolor](averagecolor)
  
- rgbstatic
+ [rgbstatic](rgbstatic)
  
- center
+ [center](center)
  
  ... and more to come!
