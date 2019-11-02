@@ -16,8 +16,6 @@ def averagecolor(img):
 	GreenValue = 0
 	BlueValue = 0
 
-	img = cv.imread(img)
-
 	height, width, channels = img.shape
 
 	ImageArea = width * height
@@ -45,11 +43,14 @@ def rgbstatic(width, height):
 				
 	return img_array
 
-def center(img):
+def center(img, roundPixel):
 
 	height, width, channels = img.shape
 
-	center = round(width/2),round(height/2)
+	center = width/2, height/2
+
+	if roundPixel == true:
+		center = round(width/2), round(height/2)
 
 	return center
 
